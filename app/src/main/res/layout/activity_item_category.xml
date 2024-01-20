@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ItemCategory">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:background="#FFC107"
+        android:text="ADD CATEGORY"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Input_CategoryGoal"
+                android:layout_width="82dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint=" Goal"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Input_CategoryName"
+                android:layout_width="163dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Category Name"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/Add_CategoryBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="ADD CATEGORY" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="415dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFC107"
+                android:text="ADD ITEM"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/Item_Category"
+                    android:layout_width="147dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:ems="10"
+                    android:hint="Item Category"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/Item_Name"
+                    android:layout_width="152dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:ems="10"
+                    android:hint="Item Name"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/Item_Desc"
+                    android:layout_width="146dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:ems="10"
+                    android:hint="Item Description"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/Item_DateAquired"
+                    android:layout_width="146dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:ems="10"
+                    android:hint="Date Aquired"
+                    android:inputType="textPersonName" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/View_ItemsBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:text="View Items" />
+
+                    <Button
+                        android:id="@+id/Return_Btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:text="RETURN" />
+
+                    <Button
+                        android:id="@+id/AddItemBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="ADD ITEM" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
